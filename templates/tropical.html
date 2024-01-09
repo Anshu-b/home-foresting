@@ -1,10 +1,127 @@
-{% extends "layout.html" %}
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="/static/styles.css">
-{% block title %}
-   <h1>Home Foresting</h1>
-{% endblock %}
-
-{% block main %}
-
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <!-- http://getbootstrap.com/docs/5.1/ -->
+        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" rel="stylesheet">
+        <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"></script>
+        <link href="/static/styles.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jinja2/2.11.3/jinja2.min.js"></script>
+        <title>
+         <h1>Home Foresting</h1>
+         </title>
+    </head>
+    <body>
+        <nav class="bg-dark border navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <a class="home" href="/">Home Foresting</a>
+                <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ml-auto mt-2 bob">
+                        <li><a class="nav-text" href="/tropical">Rare Tropical Fruits</a></li>
+                        <li><a class="nav-text" href="/cold">Cold Climate Fruits</a></li>
+                        <li><a class="nav-text" href="/flowers">Tropical Flowers</a></li>
+                        <li><a class="nav-text" href="/calculator">USDA Zone Calculator</a></li>
+                        <li><a class="nav-text" href="/about">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="box">
+            <img alt="syzigium" src="tropicals/syzygium.png">
+            <h3><a href="/syzigiums">Syzygiums: Rose Apple Family</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/garcinias">Garcinias: Mangosteen Family</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/soapberries">Soapberries: Lychee Family</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/annonas">Annonas: Sugar Apple Family</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/mangoes">Cashews & Mangoes</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/sapotes">Sapotes & Star Apples</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/eugenias">Eugenias: Tropical Cherries & More</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/jaboticabas">Jaboticabas: Tree Grape</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/artocarpus">Artocarpus: Jackfruit Family</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/citrus">Uncommon Citrus</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/passionfruit">Passion & Dragons</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/psidium">Psidium: Guava Family</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/bananas">Not Really Trees: Bananas & Papayas</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/pods">Nitrogen-Fixing Pod Producers</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/coffee">Tea and Coffee</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/spices">Spices</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/subtropicals">Deciduous Subtropicals</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/palms">Fruiting Palms</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/starfruit">Starfruit & Bilimbi</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/indoors">Commonly Indoors</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/avocados">Avocados</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/sweeteners">Natural Sweeteners</a></h3>
+            <p> Coming soon! </p>
+        </div>
+        <div class="box">
+            <h3><a href="/pbj">Peanut Butter & Jelly?</a></h3>
+            <p> Coming soon! </p>
+        </div>
+    </body>
+</html>
