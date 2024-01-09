@@ -7,23 +7,23 @@ def index():
     return render_template('index.html')
 
 @app.route('/tropical')
-def index():
+def tropical():
     return render_template('tropical.html')
 
 @app.route('/cold')
-def index():
+def cold():
     return render_template('cold.html')
 
 @app.route('/flowers')
-def index():
+def flowers():
     return render_template('flowers.html')
     
 @app.route('/calculator')
-def index():
+def calculator():
     return render_template('calculator.html')
 
 @app.route('/about')
-def index():
+def about():
     return render_template('about.html')
 
 if __name__ == '__main__':
