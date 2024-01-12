@@ -49,6 +49,7 @@ footer
     margin: 1.5vh auto;
     border-radius: 10px;
     max-width: 40%;
+    max-height: 400px;
 
 }
 
@@ -69,9 +70,9 @@ footer
     /* background-color: rgb(255, 140, 0); */
     background-color: darkslategrey;
     color: white;
-    border: 3px solid black;
+    border: 3px solid goldenrod;
     border-radius: 20px;
-    width: 70%;
+    width: 80%;
     text-align: center;
     margin: 5vh auto;
     padding: 2%;
@@ -197,12 +198,14 @@ th, td
 {
     font-family: 'Michroma', sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: gold;
 }
 
 .navwords, h6, h4
 {
     font-family: 'PT Sans Narrow', sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: large;
 }
 
 .quote
