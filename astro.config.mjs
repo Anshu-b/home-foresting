@@ -1,15 +1,7 @@
 import { defineConfig } from 'astro/config';
-import mdx from '@astrojs/mdx';
-import { SITE } from './src/config';
-
-import sitemap from '@astrojs/sitemap';
-
-// https://astro.build/config
+import tailwind from "@astrojs/tailwind";
+import sitemap from "@astrojs/sitemap";
 export default defineConfig({
-  integrations: [mdx(), sitemap()],
-  server: {
-    host: '0.0.0.0',
-  },
-  base: '/home-foresting',
-  site: SITE.url,
+   site: 'https://lexingtonthemes.com',
+  integrations: [tailwind(),  sitemap()]
 });

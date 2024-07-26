@@ -1,25 +1,20 @@
 {
-  "name": "astro-massiely",
-  "version": "1.0.0",
-  "private": false,
+  "name": "",
+  "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
-  "dependencies": {
-    "@astrojs/mdx": "^1.0.3",
-    "@astrojs/rss": "^3.0.0",
-    "@astrojs/sitemap": "^3.0.0",
-    "astro": "^3.0.13",
-    "astro-google-fonts-optimizer": "^0.2.2",
-    "date-fns": "^2.30.0"
-  },
   "devDependencies": {
-    "rollup": ">=3",
-    "prettier-plugin-astro": "^0.12.0",
-    "sass": "^1.67.0"
+    "@astrojs/sitemap": "^3.1.4",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.7.0"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.8.3",
+    "typescript": "^5.5.4"
   }
 }
